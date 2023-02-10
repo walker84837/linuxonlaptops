@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Compaq 15 Notebook PC</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<a href="/index.html">Home page</a>
+		<main>
+			<h1>Installing Arch Linux on Compaq 15 Notebook PC (K3H58EA#ABZ)</h1>
+			<p class="date">Last updated: 10th February 2023</p>
+			<p>General Hardware Specifications of HP Compaq 15 Notebook PC:</p>
+			<table>
+				<thead>
+					<tr>
+						<th>Hardware Components</th>
+						<th>Status under Linux</th>
+						<th>Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>AMD E1-2100 APU with Radeon(TM) HD Graphics</td>
+						<td>Works.</td>
+						<td>No special procedure required during installation.</td>
+					</tr>
+					<tr>
+						<td>14.6" <mark>WXGA/WXGA+</mark> 60.02 Hz Display</td>
+						<td>Works.</td>
+						<td><mark>Important</mark>: Screen resolution type is assumed by looking at dimensions and resolution (1366x768) of the screen.<br>I suggest making the display bigger in Xfce by setting the scaling to 1.2 or 1.3 times on both the x and y axis.</td>
+					</tr>
+					<tr>
+						<td>Kabini (Radeon HD 8210)</td>
+						<td>Works.</td>
+						<td>No special procedure required during installation.</td>
+					</tr>
+					<tr>
+						<td>4 GiB SODIMM DDR3 Synchronous Unbuffered (Unregistered) 667 MHz (1.5 ns)</td>
+						<td>Works.</td>
+						<td>No special procedure required during installation.</td>
+					</tr>
+					<tr>
+						<td>HGST 500 GB SATA disk</td>
+						<td>Works.</td>
+						<td>No special procedure required during installation.</td>
+					</tr>
+					<tr>
+						<td>RJ-45 port (RTL810xE PCI Express Fast Ethernet controller)</td>
+						<td>Works.</td>
+						<td>No special procedure required during installation.</td>
+					</tr>
+					<tr>
+						<td>AR9485 Wireless Network Adapter</td>
+						<td>Works.</td>
+						<td>No special procedure required during installation.</td>
+					</tr>
+					<tr>
+						<td>DVDRAM GU90N</td>
+						<td>Works.</td>
+						<td>No special procedure required during installation.</td>
+					</tr>
+					<tr>
+						<td>FCH SD Flash Controller</td>
+						<td>Doesn't work.</td>
+						<td>When plugging in the SD card, it doesn't detect it in <code>lsblk</code> nor <code>gparted</code>.</td>
+					</tr>
+					<tr>
+						<td>HP OA04041 Lithium-Ion Battery</td>
+						<td>Works.</td>
+						<td>No special procedure required during installation.</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+		<p class="kernel">This laptop is operating under Kernel version 6.1.10-zen1-1-zen</p>
+
+		<p>Basic installation of Arch Linux</p>
+		<ul>
+			<li><b>Why to use Arch Linux?</b> It's lightweight, fast and minimal.</li>
+			<li><b>Obtaining Arch Linux</b> You can obtain Arch Linux from <a href="https://archlinux.org/download/">here</a>: installation guide is <a href="https://wiki.archlinux.org/title/installation_guide">here</a>.</li>
+			<li><b>Installing</b> For beginners, I'd recommend using <code>archinstall</code> to install Linux, I recommend Btrfs with Zstd compression</li>
+			<li><b>Post-Install modifications/tweaks</b> I've installed XFCE for better performance.</a></li>
+		</ul>
+
+		<p>Setting up additional features for Arch Linux</p>
+		<ul>
+			<li>I installed <a title="Simply clone the GitHub repo and use install.sh to install the theme." href="https://github.com/vinceliuice/WhiteSur-gtk-theme">WhiteSur GTK</a></li>
+			<li>I replaced Bash with Zsh (using <a title="Oh My Zsh website; from there you can install it." href="https://ohmyz.sh/">Oh My Zsh)</a></li>
+		</ul>
+
+		<p>Unresolved issues</p>
+		<ul>
+			<li>SD Card reader doesn't work at all. I tried with different SD cards, but doesn't work.</li>
+		</ul>
+
+		<p>Configuration Files</p>
+		<ul>
+			<li>I changed no configuration files, however, to personalize the Arch install on this laptop, I changed the <abbr title="Depends on what neofetch program you generally use, but most of the configs should be in ~/.config/{program}">neofetch</abbr> and laptop-mode-tools's configuration file.</li>
+		</ul>
+
+		<p>Contact information</p>
+		<ul>
+			<li>Email: <a class="email" href="mailto:walker84837+linuxonlaptops@gmail.com">walker84837+linuxonlaptops@gmail.com</a></li>
+			<li>Telegram: <a href="https://walker84837.t.me">@walker84837</a></li>
+			<li>Discord: winlogon...#4941</li>
+		</ul>
+
+		<p>Links</p>
+		<ul>
+			<li><a href="https://archlinux.org/download/">Arch Linux downloads</a></li>
+			<li><a href="https://wiki.archlinux.org/title/installation_guide">Arch Linux installation guide</a></li> 
+			<li><a href="https://github.com/vinceliuice/WhiteSur-gtk-theme">WhiteSur GTK</a></li>
+		</ul>
+
+		<p>Other informations</p>
+		<ul>
+			<li>The laptop is a bit heavier compared to other laptops from the same time period. It weighs about 2.168 kg, which is around 4.780 lbs. Other laptops from the same time period usually weigh between 1.36 kg to 1.81 kg, which is 3 to 4 pounds.</li>
+			<li>The laptop is good for simple jobs like watching videos, writing, or making presentations, but it has trouble with harder jobs like playing games;</li>
+			<li>The screen reflects like a mirror when you're in a bright light or if there is any light shining on it;</li>
+			<li>The color in closed spaces, like in a house, looks pretty accurate;</li>
+			<li>The hard disk makes a lot of noise, so it's better to switch to an SSD;</li>
+			<li>The typing on the keyboard is not too loud or too quiet, but after using it for a while, the keys seem to bend inward;</li>
+			<li>I advise against using 99% isopropyl alcohol to clean the laptop because it can make the plastic look more cloudy than it used to.</li>
+			<li>It's easy to replace the battery because as are many available on websites like Amazon.<br>Note: the battery lasts around between 3 hours and 3 hours and a half, but you can make it last longer by installing laptop-mode-tools:
+				<pre>yay -S laptop-mode-tools<br>sudo systemctl enable --now laptop-mode.service<br>sudo systemctl start laptop-mode.service</pre>Note: the configuration file is usually at <code>/etc/laptop-mode/laptop-mode.conf</code>
+			</li>
+		</ul>
+
+		<footer><a href="https://linux-on-laptops.com/" title="Linux on Laptops"><img src="/images/button3.png" alt="Linux On Laptops" border="0"></a></footer>
+	</body>
+</html>

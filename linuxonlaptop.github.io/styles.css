@@ -1,0 +1,134 @@
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+}
+
+a {
+	color: #203c7f;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-decoration: underline;
+	text-rendering: optimizeLegibility;
+}
+
+a:hover {
+	color: #7f5020;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-decoration: underline;
+	text-rendering: optimizeLegibility;
+}
+
+a:visited {
+	color: #203c7f;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-decoration: underline;
+	text-rendering: optimizeLegibility;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin-bottom: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+p {
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #dddddd;
+}
+
+tr {
+	color: black;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-rendering: optimizeLegibility;
+}
+
+li {
+	color: black;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+}
+
+pre, code {
+	font-family: Monaco, 'Courier New', Courier, monospace;
+	color: black;
+	background-color: #d4d4d4;
+	font-weight: 600;
+	padding: 1.618033989px 4.828427125px;
+	border-radius: 2.414213562px;
+	text-rendering: optimizeLegibility;
+}
+
+pre {
+	width: fit-content;
+	height: fit-content;
+	padding-top: 4.828427125px;
+	padding-bottom: 4.828427125px
+}
+
+footer {
+	padding: 1rem;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13.5px;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+}
+
+mark {
+	background-color: #fff200;
+}
+
+.afooter {
+	font-size: 14.5px;
+	text-rendering: optimizeLegibility;
+}
+
+.date {
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-decoration: none;
+	text-rendering: optimizeLegibility;
+}
+
+.kernel {
+	padding: 1rem;
+	font-size: 14px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: right;
+	text-decoration: none;
+	text-rendering: optimizeLegibility;
+}
+
+.email {
+	line-height: 1.5;
+	text-decoration: none;
+	font-style: 14px;
+	text-align: right;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
