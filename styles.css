@@ -8,10 +8,18 @@
   font-size: 14px;
 }
 
+main {
+  width: min(120ch, 100% - 4rem);
+  margin-inline: auto;
+}
+
+html {
+  color-scheme: light;
+}
+
 body {
   background-color: #f2f2f2;
   line-height: 1.5;
-  color-scheme: light;
 }
 
 a {
